@@ -29,13 +29,13 @@ Antes de começar, você precisa ter instalado:
    git clone [https://github.com/Kelly-Lima25/CleanArchitecture.git]
    
 2. Configure a string de conexão no arquivo appsettings.json:
-    A string de conexão deve ser configurado de acordo o banco que for usado.
+    - A string de conexão deve ser configurado de acordo o banco que for usado.
    
     "ConnectionStrings": {
     "DefaultConnection": "Server=SEU_SERVIDOR;Database=CleanArchDB;Trusted_Connection=True;"
     }
    
-3. Execute no terminal a migração do banco de dados(no terminal na parte de *Default project* troca para CleanArch.Infra.Data:
+3. Execute no terminal a migração do banco de dados (no terminal na parte de *Default project* troca para CleanArch.Infra.Data):
    add-migration InicialDemo
    
 4. Após executar a migração, atualize o banco de dados através do terminal:
