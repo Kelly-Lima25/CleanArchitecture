@@ -29,8 +29,8 @@ Antes de começar, você precisa ter instalado:
    git clone [https://github.com/Kelly-Lima25/CleanArchitecture.git]
    
 2. Configure a string de conexão no arquivo appsettings.json:
-    - A string de conexão deve ser configurado de acordo o banco que for usado.
-   
+    - A string de conexão deve ser configurado de acordo com o banco que for usado.
+   ```bash
     "ConnectionStrings": {
     "DefaultConnection": "Server=SEU_SERVIDOR;Database=CleanArchDB;Trusted_Connection=True;"
     }
