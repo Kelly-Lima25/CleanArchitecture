@@ -36,9 +36,9 @@ Antes de começar, você precisa ter instalado:
     }
    
 3. Execute no terminal a migração do banco de dados (no terminal na parte de *Default project* troca para CleanArch.Infra.Data):
-   add-migration InicialDemo
+   - add-migration InicialDemo
    
 4. Após executar a migração, atualize o banco de dados através do terminal:
-   update-database
+   - update-database
    
 5. Execute o projeto no Visual Studio.
