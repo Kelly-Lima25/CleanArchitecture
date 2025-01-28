@@ -26,7 +26,7 @@ Antes de começar, você precisa ter instalado:
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone [https://github.com/Kelly-Lima25/CleanArchitecture.git]
    
 2. Configure a string de conexão no arquivo appsettings.json:
     A string de conexão deve ser configurado de acordo o banco que for usado.
